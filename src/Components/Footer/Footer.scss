@@ -1,0 +1,21 @@
+footer {
+  background-color: #3f4040;
+  .social-media-line {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgb(0, 0, 0) 0%,
+      rgba(54, 170, 224, 0.95) 0%,
+      rgba(54, 170, 224, 0.95) 100%
+    );
+  }
+  a:hover {
+    color: #36a9e0;
+  }
+
+  i {
+    &:hover {
+      color: #3f4040 !important;
+    }
+  }
+}
