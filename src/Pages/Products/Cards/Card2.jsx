@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Cojin1 from "../../../Assets/Images/Cojines/116286493_134434728326132_5128192869936772326_o.jpg";
 import Cojin2 from "../../../Assets/Images/Cojines/116203709_134434818326123_5957448055326319600_o.jpg";
 import Cojin3 from "../../../Assets/Images/Cojines/116429836_134434144992857_2916541331751664329_o.jpg";
@@ -74,9 +76,11 @@ const Card2 = () => {
         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
           CATEGORÍA
         </h3>
-        <h2 className="text-gray-900 title-font text-lg font-medium">
-          Diseño Cojines
-        </h2>
+        <Link to="/product/cushions">
+          <h2 className="text-gray-900 title-font text-lg font-medium">
+            Diseño Cojines
+          </h2>
+        </Link>
       </div>
     </div>
   );

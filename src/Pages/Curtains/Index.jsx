@@ -9,133 +9,137 @@ import Curtain7 from "../../Assets/Images/Cortinas/116351457_134429061660032_810
 import Curtain8 from "../../Assets/Images/Cortinas/116371038_134428058326799_2042073654436279698_n.jpg";
 import Curtain9 from "../../Assets/Images/Cortinas/116580074_134428498326755_6844690414369085726_o.jpg";
 
+import { SRLWrapper } from "simple-react-lightbox";
+
 const Index = () => {
   return (
     <section
       style={{ margin: "30px auto" }}
       className="text-gray-700 body-font"
     >
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-4">
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain1}
-              />
+      <SRLWrapper>
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain1}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain2}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain2}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain3}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain3}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain4}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain4}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain5}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain5}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain6}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain6}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain7}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain7}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain8}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain8}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Curtain9}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Curtain9}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
           </div>
         </div>
-      </div>
+      </SRLWrapper>
     </section>
   );
 };

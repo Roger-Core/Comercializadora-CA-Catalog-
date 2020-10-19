@@ -38,510 +38,514 @@ import Vinyl36 from "../../Assets/Images/Viniles/117673336_141255840977354_88755
 import Vinyl37 from "../../Assets/Images/Viniles/117801907_141258927643712_4618101522317919935_o.jpg";
 import Vinyl38 from "../../Assets/Images/Viniles/117889187_141255777644027_4792700551357641875_n.jpg";
 
+import { SRLWrapper } from "simple-react-lightbox";
+
 const Index = () => {
   return (
     <section
       style={{ margin: "30px auto" }}
       className="text-gray-700 body-font"
     >
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-4">
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl1}
-              />
+      <SRLWrapper>
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl1}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl2}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl2}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl3}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl3}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl4}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl4}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl5}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl5}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl6}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl6}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl7}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl7}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl8}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl8}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl9}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl9}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl10}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl10}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl11}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl11}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl12}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl12}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl13}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl13}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl14}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl14}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl15}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl15}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl16}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl16}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl17}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl17}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl18}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl18}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl19}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl19}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl20}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl20}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl21}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl21}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl22}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl22}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl23}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl23}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl24}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl24}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl25}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl25}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl26}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl26}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl27}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl27}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl28}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl28}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl29}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl29}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl30}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl30}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl31}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl31}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl32}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl32}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl33}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl33}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl34}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl34}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl35}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl35}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl36}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl36}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl37}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl37}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Vinyl38}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Vinyl38}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
           </div>
         </div>
-      </div>
+      </SRLWrapper>
     </section>
   );
 };

@@ -15,211 +15,215 @@ import Picture13 from "../../Assets/Images/Cuadros/116703715_134437688325836_318
 import Picture14 from "../../Assets/Images/Cuadros/IMG_20200908_214624951.jpg";
 import Picture15 from "../../Assets/Images/Cuadros/IMG_20200908_215842495.jpg";
 
+import { SRLWrapper } from "simple-react-lightbox";
+
 const Index = () => {
   return (
     <section
       style={{ margin: "30px auto" }}
       className="text-gray-700 body-font"
     >
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-4">
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture1}
-              />
+      <SRLWrapper>
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture1}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture2}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture2}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture3}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture3}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture4}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture4}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture5}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture5}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture6}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture6}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture7}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture7}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture8}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture8}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture9}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture9}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture10}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture10}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture11}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture11}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture12}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture12}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture13}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture13}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture14}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture14}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <div
-              style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
-              className="block relative h-48 rounded overflow-hidden"
-            >
-              <img
-                alt="ecommerce"
-                className="object-cover object-center w-full h-full block"
-                src={Picture15}
-              />
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div
+                style={{ boxShadow: "1px 6px 10px 0 rgba(0, 0, 0, 0.26)" }}
+                className="block relative h-48 rounded overflow-hidden"
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src={Picture15}
+                />
+              </div>
+              <div className="mt-4"></div>
             </div>
-            <div className="mt-4"></div>
           </div>
         </div>
-      </div>
+      </SRLWrapper>
     </section>
   );
 };

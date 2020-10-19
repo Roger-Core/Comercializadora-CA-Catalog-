@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Cuadro1 from "../../../Assets/Images/Cuadros/116591640_134437874992484_2155162674218664985_n.jpg";
 import Cuadro2 from "../../../Assets/Images/Cuadros/116515931_134437708325834_7944572525305040548_n.jpg";
 import Cuadro3 from "../../../Assets/Images/Cuadros/116260337_134437854992486_183457619947949911_n.jpg";
@@ -74,9 +76,11 @@ const Card4 = () => {
         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
           CATEGORÍA
         </h3>
-        <h2 className="text-gray-900 title-font text-lg font-medium">
-          Diseño Cuadros
-        </h2>
+        <Link to="/product/pictures">
+          <h2 className="text-gray-900 title-font text-lg font-medium">
+            Diseño Cuadros
+          </h2>
+        </Link>
       </div>
     </div>
   );

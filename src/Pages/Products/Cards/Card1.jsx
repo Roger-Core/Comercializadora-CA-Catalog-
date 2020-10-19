@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from 'react-router-dom'
+
 import Vinil1 from "../../../Assets/Images/Viniles/116707584_137460168023588_9101685742322642801_n.jpg";
 import Vinil2 from "../../../Assets/Images/Viniles/116714774_137460334690238_5275833858084786804_n.jpg";
 import Vinil3 from "../../../Assets/Images/Viniles/117889187_141255777644027_4792700551357641875_n.jpg";
@@ -74,9 +76,11 @@ const Card1 = () => {
         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
           CATEGORÍA
         </h3>
-        <h2 className="text-gray-900 title-font text-lg font-medium">
-          Estilo Viniles
-        </h2>
+        <Link to="/product/Decorative-vinyl-paint">
+          <h2 className="text-gray-900 title-font text-lg font-medium">
+            Estilo Viniles
+          </h2>
+        </Link>
       </div>
     </div>
   );

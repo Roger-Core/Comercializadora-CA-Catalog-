@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Cortina1 from "../../../Assets/Images/Cortinas/116580074_134428498326755_6844690414369085726_o.jpg";
 import Cortina2 from "../../../Assets/Images/Cortinas/116351457_134429061660032_8107408406560832495_o.jpg";
 import Cortina3 from "../../../Assets/Images/Cortinas/116371038_134428058326799_2042073654436279698_n.jpg";
@@ -74,9 +76,11 @@ const Card3 = () => {
         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
           CATEGORÍA
         </h3>
-        <h2 className="text-gray-900 title-font text-lg font-medium">
-          Estilo Cortinas
-        </h2>
+        <Link to="/product/curtains-blinds-awnings">
+          <h2 className="text-gray-900 title-font text-lg font-medium">
+            Estilo Cortinas
+          </h2>
+        </Link>
       </div>
     </div>
   );

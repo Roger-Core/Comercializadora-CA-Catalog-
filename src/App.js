@@ -14,6 +14,8 @@ import Curtains from "./Pages/Curtains/Index";
 import "./App.scss";
 import Footer from "./Components/Footer/Index";
 
+import SimpleReactLightbox from "simple-react-lightbox";
+
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
 
@@ -74,22 +76,24 @@ const App = () => {
   return (
     <Router>
       <div style={{ height: "100%" }}>
-        <Navbar drawerClickHandler={drawerToggleClickHandler} />
-        <Sidedrawer show={sideDrawerOpen} />
-        {sideDrawer}
-        {backdrop}
-        <Route render={() => <Redirect to="/" />} />
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/" component={Products} />
-        <Route exact path="/" component={Gallery} />
-        <Route exact path="/" component={About} />
+        <SimpleReactLightbox>
+          <Navbar drawerClickHandler={drawerToggleClickHandler} />
+          <Sidedrawer show={sideDrawerOpen} />
+          {sideDrawer}
+          {backdrop}
+          <Route render={() => <Redirect to="/" />} />
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={Products} />
+          <Route exact path="/" component={Gallery} />
+          <Route exact path="/" component={About} />
 
-        <Route path="/product/cushions" component={Cushions} />
-        <Route path="/product/pictures" component={Pictures} />
-        <Route path="/product/Decorative-vinyl-paint" component={Vinyls} />
-        <Route path="/product/curtains-blinds-awnings" component={Curtains} />
-        {/* <PurchaseButton /> */}
-        <Footer />
+          <Route path="/product/cushions" component={Cushions} />
+          <Route path="/product/pictures" component={Pictures} />
+          <Route path="/product/Decorative-vinyl-paint" component={Vinyls} />
+          <Route path="/product/curtains-blinds-awnings" component={Curtains} />
+          {/* <PurchaseButton /> */}
+          <Footer />
+        </SimpleReactLightbox>
       </div>
     </Router>
   );
