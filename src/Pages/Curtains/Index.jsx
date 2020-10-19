@@ -17,6 +17,12 @@ const Index = () => {
       style={{ margin: "30px auto" }}
       className="text-gray-700 body-font"
     >
+      <h3
+        style={{ textAlign: "center", margin: "115px auto" }}
+        className="text-gray-500 text-xs tracking-widest title-font mb-1"
+      >
+        PUEDES HACER CLICK EN LAS IMAGENES PARA OBTENER MAS DETALLES.
+      </h3>
       <SRLWrapper>
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">

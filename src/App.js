@@ -16,6 +16,19 @@ import Footer from "./Components/Footer/Index";
 
 import SimpleReactLightbox from "simple-react-lightbox";
 
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
 
@@ -75,6 +88,7 @@ const App = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <div style={{ height: "100%" }}>
         <SimpleReactLightbox>
           <Navbar drawerClickHandler={drawerToggleClickHandler} />
