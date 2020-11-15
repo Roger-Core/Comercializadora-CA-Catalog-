@@ -76,18 +76,18 @@ const Footer = () => {
               style={{ width: "100%", border: ".5px solid #f8f8f8" }}
             />
             <p>
-              <Link to="/product/cushions">Cojines</Link>
+              <Link to="/productos/cojines">Cojines</Link>
             </p>
             <p>
-              <Link to="/product/pictures">Cuadros</Link>
+              <Link to="/productos/cuadros">Cuadros</Link>
             </p>
             <p>
-              <Link to="/product/Decorative-vinyl-paint">
+              <Link to="/productos/vinilos-decorativos">
                 Viniles Decorativos
               </Link>
             </p>
             <p>
-              <Link to="/product/curtains-blinds-awnings">
+              <Link to="/productos/cortinas-persianas-toldos">
                 Cortinas / Persianas / Toldos
               </Link>
             </p>
