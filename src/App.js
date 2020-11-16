@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { BrowserRouter as Router, Route, useLocation } from "react-router-dom";
 
-import Navbar from "./Components/Navbar/index";
+import Navbar from "../src/Components/Navbar";
 import Home from "./Pages/Home";
 import CarouselCards from "./Pages/CarouselCards";
 import Gallery from "./Pages/Gallery";
@@ -14,8 +14,6 @@ import Vinyls from "./Pages/Products/DecorativeVinyls";
 import Curtains from "./Pages/Products/Curtains";
 import PurchaseButton from "./Components/PurchaseButton";
 import Footer from "./Components/Footer";
-
-import "./App.scss";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -33,7 +31,7 @@ const App = () => {
       <ScrollToTop />
       <div style={{ height: "100%" }}>
         <SimpleReactLightbox>
-          <Navbar key="navbarComponent" />
+          <Navbar />
 
           <Route exact path="/" component={Home} />
           <Route exact path="/" component={CarouselCards} />
