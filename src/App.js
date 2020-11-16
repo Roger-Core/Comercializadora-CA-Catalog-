@@ -33,7 +33,7 @@ const App = () => {
       <ScrollToTop />
       <div style={{ height: "100%" }}>
         <SimpleReactLightbox>
-          <Navbar />
+          <Navbar key="navbarComponent" />
 
           <Route exact path="/" component={Home} />
           <Route exact path="/" component={CarouselCards} />
