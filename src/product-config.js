@@ -11,6 +11,17 @@ import Curtain7 from "./Assets/Images/Cortinas/116351457_134429061660032_8107408
 import Curtain8 from "./Assets/Images/Cortinas/116371038_134428058326799_2042073654436279698_n.jpg";
 import Curtain9 from "./Assets/Images/Cortinas/116580074_134428498326755_6844690414369085726_o.jpg";
 import Curtain10 from "./Assets/Images/Cortinas/124154611_169148018188136_4028363939244333723_o.jpg";
+import Curtain11 from "./Assets/Images/Cortinas/124973713_170855844684020_1174449099553339519_o.jpg";
+import Curtain12 from "./Assets/Images/Cortinas/125099173_170855801350691_8978075479828982063_o.jpg";
+import Curtain13 from "./Assets/Images/Cortinas/125150219_170855684684036_4948333219109440136_n.jpg";
+import Curtain14 from "./Assets/Images/Cortinas/125186802_170855854684019_9126903195376109628_o.jpg";
+import Curtain15 from "./Assets/Images/Cortinas/125187049_170855778017360_5033726231207698728_o.jpg";
+import Curtain16 from "./Assets/Images/Cortinas/125187147_170855441350727_922685828125940120_n.jpg";
+import Curtain17 from "./Assets/Images/Cortinas/125219867_170855424684062_832218662010871080_n.jpg";
+import Curtain18 from "./Assets/Images/Cortinas/125219867_170855734684031_6696837008020663446_n.jpg";
+import Curtain19 from "./Assets/Images/Cortinas/125957919_172338527869085_8721261210289670355_o.jpg";
+import Curtain20 from "./Assets/Images/Cortinas/126225912_172989574470647_666470899418201489_o.jpg";
+import Curtain21 from "./Assets/Images/Cortinas/126569724_173755917727346_2947371605047708851_o.jpg";
 // Cojines
 import Cushions0 from "./Assets/Images/Cojines/115875303_134449308324674_8197729941100688149_o.jpg";
 import Cushions1 from "./Assets/Images/Cojines/116107829_134433998326205_6113599604935826693_n.jpg";
@@ -227,6 +238,83 @@ const curtains = [
 
     name: "",
     image: `${Curtain10}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain11}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain12}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain13}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain14}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain15}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain16}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain17}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain18}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain19}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain20}`,
+    brand: "Commercializadora CA",
+  },
+  {
+    id: uuid(),
+
+    name: "",
+    image: `${Curtain21}`,
     brand: "Commercializadora CA",
   },
 ];

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { BrowserRouter as Router, Route, useLocation } from "react-router-dom";
 
-import Navbar from "../src/Components/Navbar";
+import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import CarouselCards from "./Pages/CarouselCards";
 import Gallery from "./Pages/Gallery";

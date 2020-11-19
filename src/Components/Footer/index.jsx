@@ -100,9 +100,9 @@ const Footer = () => {
               style={{ width: "100%", border: ".5px solid #f8f8f8" }}
             />
             <i style={{ fontSize: "19px" }} className="fas fa-home mr-3"></i>{" "}
-            Circunvalación Sur #206
-            <p>Col. Las Fuentes</p>
-            <p>Zapopan, Jalisco 45080</p>
+            Compositores
+            <p>Col. Los Pinos</p>
+            <p>Zapopan, Jalisco 4572</p>
             <p>
               <i
                 style={{ fontSize: "19px" }}
