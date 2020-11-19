@@ -1,5 +1,3 @@
-import uuid from "react-uuid";
-
 // Cortinas
 import Curtain1 from "./Assets/Images/Cortinas/116130614_134428741660064_7947243286911654447_n.jpg";
 import Curtain2 from "./Assets/Images/Cortinas/116130930_134426978326907_1779137587987479140_o.jpg";
@@ -180,139 +178,127 @@ import Picture15 from "./Assets/Images/Cuadros/IMG_20200908_215842495.jpg";
 
 const curtains = [
   {
-    id: uuid(),
+    id: 1,
     name: "",
     image: `${Curtain1}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 2,
     name: "",
     image: `${Curtain2}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 3,
     name: "",
     image: `${Curtain3}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 4,
     name: "",
     image: `${Curtain4}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 5,
     name: "",
     image: `${Curtain5}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 6,
     name: "",
     image: `${Curtain6}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 7,
     name: "",
     image: `${Curtain7}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 8,
     name: "",
     image: `${Curtain8}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 9,
     name: "",
     image: `${Curtain9}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 10,
     name: "",
     image: `${Curtain10}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 11,
     name: "",
     image: `${Curtain11}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 12,
     name: "",
     image: `${Curtain12}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 13,
     name: "",
     image: `${Curtain13}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 14,
     name: "",
     image: `${Curtain14}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 15,
     name: "",
     image: `${Curtain15}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 16,
     name: "",
     image: `${Curtain16}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 17,
     name: "",
     image: `${Curtain17}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 18,
     name: "",
     image: `${Curtain18}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 19,
     name: "",
     image: `${Curtain19}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 20,
     name: "",
     image: `${Curtain20}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 21,
     name: "",
     image: `${Curtain21}`,
     brand: "Commercializadora CA",
@@ -321,605 +307,595 @@ const curtains = [
 
 const cushions = [
   {
-    id: uuid(),
+    id: 22,
     name: "",
     image: `${Cushions0}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 23,
     name: "",
     image: `${Cushions1}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 24,
     name: "",
     image: `${Cushions2}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 25,
     name: "",
     image: `${Cushions3}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 26,
     name: "",
     image: `${Cushions4}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 27,
     name: "",
     image: `${Cushions5}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 28,
     name: "",
     image: `${Cushions6}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 29,
     name: "",
     image: `${Cushions7}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 30,
     name: "",
     image: `${Cushions8}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 31,
     name: "",
     image: `${Cushions9}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 32,
     name: "",
     image: `${Cushions10}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 33,
     name: "",
     image: `${Cushions12}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 34,
     name: "",
     image: `${Cushions13}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 35,
     name: "",
     image: `${Cushions14}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 36,
     name: "",
     image: `${Cushions15}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 37,
     name: "",
     image: `${Cushions16}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 38,
     name: "",
     image: `${Cushions17}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 39,
     name: "",
     image: `${Cushions18}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 40,
     name: "",
     image: `${Cushions19}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 41,
     name: "",
     image: `${Cushions20}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 42,
     name: "",
     image: `${Cushions21}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 43,
     name: "",
     image: `${Cushions22}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 44,
     name: "",
     image: `${Cushions23}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 45,
     name: "",
     image: `${Cushions24}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 46,
     name: "",
     image: `${Cushions25}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 47,
     name: "",
     image: `${Cushions26}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 48,
     name: "",
     image: `${Cushions27}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 49,
     name: "",
     image: `${Cushions28}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 50,
     name: "",
     image: `${Cushions29}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 51,
     name: "",
     image: `${Cushions30}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 52,
     name: "",
     image: `${Cushions31}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 53,
     name: "",
     image: `${Cushions32}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 54,
     name: "",
     image: `${Cushions33}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 55,
     name: "",
     image: `${Cushions34}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 56,
     name: "",
     image: `${Cushions35}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 57,
     name: "",
     image: `${Cushions36}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 58,
     name: "",
     image: `${Cushions37}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 59,
     name: "",
     image: `${Cushions38}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 60,
     name: "",
     image: `${Cushions39}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 61,
     name: "",
     image: `${Cushions40}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 62,
     name: "",
     image: `${Cushions41}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 63,
     name: "",
     image: `${Cushions42}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 64,
     name: "",
     image: `${Cushions43}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 65,
     name: "",
     image: `${Cushions44}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 66,
     name: "",
     image: `${Cushions45}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 67,
     name: "",
     image: `${Cushions46}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 68,
     name: "",
     image: `${Cushions47}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 69,
     name: "",
     image: `${Cushions48}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 70,
     name: "",
     image: `${Cushions49}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 71,
     name: "",
     image: `${Cushions50}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 72,
     name: "",
     image: `${Cushions51}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 73,
     name: "",
     image: `${Cushions52}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 74,
     name: "",
     image: `${Cushions53}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 75,
     name: "",
     image: `${Cushions54}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 76,
     name: "",
     image: `${Cushions56}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 77,
     name: "",
     image: `${Cushions57}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 78,
     name: "",
     image: `${Cushions58}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 79,
     name: "",
     image: `${Cushions59}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 80,
     name: "",
     image: `${Cushions60}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 81,
     name: "",
     image: `${Cushions61}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 82,
     name: "",
     image: `${Cushions62}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 83,
     name: "",
     image: `${Cushions63}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 84,
     name: "",
     image: `${Cushions64}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 85,
     name: "",
     image: `${Cushions65}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 86,
     name: "",
     image: `${Cushions66}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 87,
     name: "",
     image: `${Cushions67}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 88,
     name: "",
     image: `${Cushions68}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 89,
     name: "",
     image: `${Cushions69}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 90,
     name: "",
     image: `${Cushions70}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 91,
     name: "",
     image: `${Cushions71}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 92,
     name: "",
     image: `${Cushions72}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 93,
     name: "",
     image: `${Cushions73}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 94,
     name: "",
     image: `${Cushions74}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 95,
     name: "",
     image: `${Cushions75}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 96,
     name: "",
     image: `${Cushions76}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 97,
     name: "",
     image: `${Cushions77}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 98,
     name: "",
     image: `${Cushions78}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 99,
     name: "",
     image: `${Cushions79}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 100,
     name: "",
     image: `${Cushions80}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 101,
     name: "",
     image: `${Cushions81}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 102,
     name: "",
     image: `${Cushions82}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 103,
     name: "",
     image: `${Cushions83}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 104,
     name: "",
     image: `${Cushions84}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 105,
     name: "",
     image: `${Cushions85}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 106,
     name: "",
     image: `${Cushions86}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 107,
     name: "",
     image: `${Cushions87}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 108,
     name: "",
     image: `${Cushions88}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 109,
     name: "",
     image: `${Cushions89}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
+    id: 110,
     name: "",
     image: `${Cushions90}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 111,
     name: "",
     image: `${Cushions91}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 112,
     name: "",
     image: `${Cushions92}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 113,
     name: "",
     image: `${Cushions93}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 114,
     name: "",
     image: `${Cushions94}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 115,
     name: "",
     image: `${Cushions95}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 116,
     name: "",
     image: `${Cushions96}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 117,
     name: "",
     image: `${Cushions97}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 118,
     name: "",
     image: `${Cushions98}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 119,
     name: "",
     image: `${Cushions99}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 120,
     name: "",
     image: `${Cushions11}`,
     brand: "Commercializadora CA",
@@ -927,267 +903,229 @@ const cushions = [
 ];
 const vinyls = [
   {
-    id: uuid(),
-
+    id: 121,
     name: "",
     image: `${Vinyl1}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 122,
     name: "",
     image: `${Vinyl2}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 123,
     name: "",
     image: `${Vinyl3}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 124,
     name: "",
     image: `${Vinyl4}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 125,
     name: "",
     image: `${Vinyl5}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 126,
     name: "",
     image: `${Vinyl6}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 127,
     name: "",
     image: `${Vinyl7}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 128,
     name: "",
     image: `${Vinyl8}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 129,
     name: "",
     image: `${Vinyl9}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 130,
     name: "",
     image: `${Vinyl10}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 131,
     name: "",
     image: `${Vinyl11}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 132,
     name: "",
     image: `${Vinyl12}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 133,
     name: "",
     image: `${Vinyl13}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 134,
     name: "",
     image: `${Vinyl14}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 135,
     name: "",
     image: `${Vinyl15}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 136,
     name: "",
     image: `${Vinyl16}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 137,
     name: "",
     image: `${Vinyl17}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 138,
     name: "",
     image: `${Vinyl18}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 139,
     name: "",
     image: `${Vinyl19}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 140,
     name: "",
     image: `${Vinyl20}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 141,
     name: "",
     image: `${Vinyl21}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 142,
     name: "",
     image: `${Vinyl22}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 143,
     name: "",
     image: `${Vinyl23}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 144,
     name: "",
     image: `${Vinyl24}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 145,
     name: "",
     image: `${Vinyl25}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 146,
     name: "",
     image: `${Vinyl26}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 147,
     name: "",
     image: `${Vinyl27}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 148,
     name: "",
     image: `${Vinyl28}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 149,
     name: "",
     image: `${Vinyl29}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 150,
     name: "",
     image: `${Vinyl30}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 151,
     name: "",
     image: `${Vinyl31}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 152,
     name: "",
     image: `${Vinyl32}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 153,
     name: "",
     image: `${Vinyl33}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 154,
     name: "",
     image: `${Vinyl34}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 155,
     name: "",
     image: `${Vinyl35}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 156,
     name: "",
     image: `${Vinyl36}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 157,
     name: "",
     image: `${Vinyl37}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 158,
     name: "",
     image: `${Vinyl38}`,
     brand: "Commercializadora CA",
@@ -1195,106 +1133,91 @@ const vinyls = [
 ];
 const pictures = [
   {
-    id: uuid(),
-
+    id: 159,
     name: "",
     image: `${Picture1}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 160,
     name: "",
     image: `${Picture2}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 161,
     name: "",
     image: `${Picture3}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 162,
     name: "",
     image: `${Picture4}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 163,
     name: "",
     image: `${Picture5}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 164,
     name: "",
     image: `${Picture6}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 165,
     name: "",
     image: `${Picture7}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 166,
     name: "",
     image: `${Picture8}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 167,
     name: "",
     image: `${Picture9}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 168,
     name: "",
     image: `${Picture10}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 169,
     name: "",
     image: `${Picture11}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 170,
     name: "",
     image: `${Picture12}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 171,
     name: "",
     image: `${Picture13}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 172,
     name: "",
     image: `${Picture14}`,
     brand: "Commercializadora CA",
   },
   {
-    id: uuid(),
-
+    id: 173,
     name: "",
     image: `${Picture15}`,
     brand: "Commercializadora CA",
