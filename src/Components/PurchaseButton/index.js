@@ -11,7 +11,7 @@ const PurchaseButton = () => {
           textShadow: "3px 4px 8px rgba(0,0,0,.2)",
         }}
       >
-        ¿Quieres Comprar?..
+        ¿Quieres Comprar?
       </h2>
       <button
         style={{
