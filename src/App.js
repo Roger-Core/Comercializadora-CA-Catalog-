@@ -12,7 +12,6 @@ import Cushions from "./Pages/Products/Cushions";
 import Pictures from "./Pages/Products/Pictures";
 import Vinyls from "./Pages/Products/DecorativeVinyls";
 import Curtains from "./Pages/Products/Curtains";
-import PurchaseButton from "./Components/PurchaseButton";
 import Footer from "./Components/Footer";
 
 const ScrollToTop = () => {
@@ -45,7 +44,7 @@ const App = () => {
             path="/productos/cortinas-persianas-toldos"
             component={Curtains}
           />
-          {/* <PurchaseButton /> */}
+
           <Footer />
         </SimpleReactLightbox>
       </div>
