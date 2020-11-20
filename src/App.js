@@ -6,7 +6,6 @@ import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import CarouselCards from "./Pages/CarouselCards";
 import Gallery from "./Pages/Gallery";
-import About from "./Pages/About";
 
 import Cushions from "./Pages/Products/Cushions";
 import Pictures from "./Pages/Products/Pictures";
@@ -35,7 +34,6 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/" component={CarouselCards} />
           <Route exact path="/" component={Gallery} />
-          <Route exact path="/" component={About} />
 
           <Route path="/productos/cojines" component={Cushions} />
           <Route path="/productos/cuadros" component={Pictures} />
