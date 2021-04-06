@@ -8,10 +8,7 @@ import Cortina6 from "../../Assets/Images/Cortinas/116339769_134426761660262_138
 
 const Gallery = () => {
   return (
-    <section
-      style={{ margin: "80px auto" }}
-      className="text-gray-700 body-font"
-    >
+    <section style={{ marginTop: "80px" }} className="text-gray-700 body-font">
       <div className="container px-5 pb-12 mx-auto flex flex-wrap">
         <div className="flex w-full mb-10 flex-wrap">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">

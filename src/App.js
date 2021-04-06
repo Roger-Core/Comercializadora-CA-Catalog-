@@ -6,6 +6,8 @@ import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import CarouselCards from "./Pages/CarouselCards";
 import Gallery from "./Pages/Gallery";
+import Clients from "./Pages/Clients";
+import FacebookButton from "./Components/FacebookButton";
 
 import Cushions from "./Pages/Products/Cushions";
 import Pictures from "./Pages/Products/Pictures";
@@ -32,9 +34,10 @@ const App = () => {
           <Navbar />
 
           <Route exact path="/" component={Home} />
+          <FacebookButton />
           <Route exact path="/" component={CarouselCards} />
           <Route exact path="/" component={Gallery} />
-
+          <Route exact path="/" component={Clients} />
           <Route path="/productos/cojines" component={Cushions} />
           <Route path="/productos/cuadros" component={Pictures} />
           <Route path="/productos/vinilos-decorativos" component={Vinyls} />
@@ -42,7 +45,6 @@ const App = () => {
             path="/productos/cortinas-persianas-toldos"
             component={Curtains}
           />
-
           <Footer />
         </SimpleReactLightbox>
       </div>

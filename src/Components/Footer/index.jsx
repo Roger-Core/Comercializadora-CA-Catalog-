@@ -64,8 +64,11 @@ const Footer = () => {
               className="accent-2 mb-3 mt-0 d-inline-block mx-auto"
               style={{ width: "100%", border: ".5px solid #f8f8f8" }}
             />
-            <p style={{ textAlign: "center" }}>
-              Under construction <br /> 🚧🚧🚧
+            <p style={{ textAlign: "left" }}>
+              Dale vida y empieza a modernizar a tu estilo. <br /> Tenemos todo
+              tipo de estupendos diseños y estilos de viniles decorativos,
+              cuadros, cortinas, toldos y cojines. <br />
+              Para todo tipo de hogares y negocios.
             </p>
           </div>
 
@@ -100,9 +103,9 @@ const Footer = () => {
               style={{ width: "100%", border: ".5px solid #f8f8f8" }}
             />
             <i style={{ fontSize: "19px" }} className="fas fa-home mr-3"></i>{" "}
-            Compositores
-            <p>Col. Los Pinos</p>
-            <p>Zapopan, Jalisco 4572</p>
+            Santa Isabel, El Palomar
+            <p>San Miguel #20A</p>
+            <p>Tlajomulco, Jalisco 45640</p>
             <p>
               <i
                 style={{ fontSize: "19px" }}
@@ -115,7 +118,7 @@ const Footer = () => {
                 style={{ fontSize: "19px" }}
                 className="fab fa-whatsapp mr-3"
               ></i>{" "}
-              333-955-89-21 y 644-132-41-46
+              3341602913 y 3341619000
             </p>
           </div>
         </div>
