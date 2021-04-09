@@ -10,15 +10,7 @@ const PurchaseButton = () => {
         rel="noreferrer"
       >
         <button className="btnF">
-          <i
-            style={{
-              fontSize: "36px",
-              margin: "auto 22px",
-            }}
-            className="fab fa-whatsapp mr-4"
-          >
-            {" "}
-          </i>
+          <i className="fab fa-whatsapp mr-4"></i>
         </button>
       </a>
     </div>
