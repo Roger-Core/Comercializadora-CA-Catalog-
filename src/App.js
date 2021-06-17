@@ -7,7 +7,7 @@ import Home from "./Pages/Home";
 import CarouselCards from "./Pages/CarouselCards";
 import Gallery from "./Pages/Gallery";
 import Clients from "./Pages/Clients";
-import FacebookButton from "./Components/FacebookButton";
+import WhatsAppButton from "./Components/WhatsAppButton";
 
 import Cushions from "./Pages/Products/Cushions";
 import Pictures from "./Pages/Products/Pictures";
@@ -34,7 +34,7 @@ const App = () => {
           <Navbar />
 
           <Route exact path="/" component={Home} />
-          <FacebookButton />
+          <WhatsAppButton />
           <Route exact path="/" component={CarouselCards} />
           <Route exact path="/" component={Gallery} />
           <Route exact path="/" component={Clients} />

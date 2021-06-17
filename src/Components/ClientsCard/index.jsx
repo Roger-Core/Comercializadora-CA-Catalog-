@@ -13,7 +13,6 @@ const ClientsCards = ({ image, brand }) => {
         src={image}
       />
       <div className="w-full">
-        <h3 className="text-gray-500 mb-3">CLIENTE COMERCIALIZADORA</h3>
         <span className="inline-flex">
           <p className="text-gray-500">
             <svg

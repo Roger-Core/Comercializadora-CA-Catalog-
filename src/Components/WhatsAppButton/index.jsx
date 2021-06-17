@@ -1,7 +1,7 @@
 import React from "react";
-import "./FacebookButton.scss";
+import "./WhatsAppButton.scss";
 
-const PurchaseButton = () => {
+const WhatsAppButton = () => {
   return (
     <div>
       <a
@@ -17,4 +17,4 @@ const PurchaseButton = () => {
   );
 };
 
-export default PurchaseButton;
+export default WhatsAppButton;
